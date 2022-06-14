@@ -24,14 +24,14 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "@AyiinXd")
+OWNER = os.environ.get("OWNER", "@Kayxzy")
 
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "")
 
 # Username CH & Group
-CHANNEL = os.environ.get("CHANNEL", "AyiinSupport")
-GROUP = os.environ.get("GROUP", "AyiinXdSupport")
+CHANNEL = os.environ.get("CHANNEL", "")
+GROUP = os.environ.get("GROUP", "")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
@@ -55,7 +55,7 @@ except ValueError:
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya Terlebih dahulu untuk Melihat File yang saya Bagikan\n\nSilakan Join Ke Channel & Group Terlebih Dahulu</b>",
+    "<b>𝘏𝘢𝘭𝘭𝘰 {first}\n\n𝘑𝘰𝘪𝘯 𝘥𝘶𝘭𝘶 𝘬𝘢𝘭𝘰 𝘮𝘢𝘶 𝘯𝘰𝘯𝘵𝘰𝘯😘\n\n𝘚𝘪𝘭𝘢𝘩𝘬𝘢𝘯 𝘑𝘰𝘪𝘯 3 𝘎𝘳𝘰𝘶𝘱/𝘊𝘩𝘢𝘯𝘯𝘦𝘭 𝘋𝘪 𝘉𝘢𝘸𝘢𝘩 𝘜𝘯𝘵𝘶𝘬 𝘔𝘦𝘯𝘰𝘯𝘵𝘰𝘯</b>",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
