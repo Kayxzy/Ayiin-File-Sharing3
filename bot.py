@@ -81,7 +81,7 @@ class Bot(Client):
                     "Bot tidak dapat Mengambil link Undangan dari FORCE_SUB_CHANNEL1!"
                 )
                 self.LOGGER(__name__).warning(
-                    f"Silakan periksa kembali var FORCE_SUB_CHANNEL1 dan Pastikan Bot anda Admin di Channel dengan izin link invite Pengguna melalui link undangan, Subs Channel Saat Ini: {FORCE_SUB_CHANNEL}"
+                    f"Silakan periksa kembali var FORCE_SUB_CHANNEL1 dan Pastikan Bot anda Admin di Channel dengan izin link invite Pengguna melalui link undangan, Subs Channel Saat Ini: {FORCE_SUB_CHANNEL1}"
                 )
                 self.LOGGER(__name__).info(
                     "\nBot Berhenti. Gabung Group https://t.me/AyiinXdSupport untuk Bantuan"
@@ -97,7 +97,7 @@ class Bot(Client):
                     "Bot tidak dapat Mengambil link Undangan dari FORCE_SUB_CHANNEL2!"
                 )
                 self.LOGGER(__name__).warning(
-                    f"Silakan periksa kembali var FORCE_SUB_CHANNEL2 dan Pastikan Bot anda Admin di Channel dengan izin link invite Pengguna melalui link undangan, Subs Channel Saat Ini: {FORCE_SUB_CHANNEL}"
+                    f"Silakan periksa kembali var FORCE_SUB_CHANNEL2 dan Pastikan Bot anda Admin di Channel dengan izin link invite Pengguna melalui link undangan, Subs Channel Saat Ini: {FORCE_SUB_CHANNEL2}"
                 )
                 self.LOGGER(__name__).info(
                     "\nBot Berhenti. Gabung Group https://t.me/AyiinXdSupport untuk Bantuan"
